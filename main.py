@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, session, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 import json
+import pymysql
 
 with open('config.json','r') as c:
     params = json.load(c)["params"]
@@ -298,4 +299,6 @@ def medicine():
     return render_template('medicine.html',params=params)
 
 
-app.run(debug=True)
+
+if __name__=="__main__":
+    app.run(host='0.0.0.0',debug=True, port=8000)
