@@ -2,8 +2,8 @@
   "params":
   {
    "local_server": "True",
-    "local_uri": "mysql://root:YashAyush16#@10.10.1.251:3306/medical",
-    "proud_uri": "mysql://root:@localhost/10.10.1.251:3306/medical",
+    "local_uri": "mysql://root:YashAyush16#@10.10.0.111:3306/medical",
+    "proud_uri": "mysql://root:YashAyush16#@10.10.0.111:3306/medical",
     "fb_url":"https://www.facebook.com",
     "tw_url":"https://www.facebook.com",
     "gh_url":"https://github.com/yashsinha1611",
