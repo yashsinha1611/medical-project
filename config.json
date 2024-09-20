@@ -2,7 +2,7 @@
   "params":
   {
    "local_server": "True",
-    "local_uri": "mysql://root:YashAyush16#@localhost/medical",
+    "local_uri": "mysql://root:YashAyush16#@10.10.1.251:3306/medical",
     "proud_uri": "mysql://root:@localhost/medical",
     "fb_url":"https://www.facebook.com",
     "tw_url":"https://www.facebook.com",
