@@ -299,6 +299,11 @@ def medicine():
     return render_template('medicine.html',params=params)
 
 
+<<<<<<< Updated upstream
 
 if __name__=="__main__":
     app.run(host='0.0.0.0',debug=True, port=8000)
+=======
+if __name__=="__main__":
+    app.run(host='0.0.0.0',debug=True, port=8000)
+>>>>>>> Stashed changes
