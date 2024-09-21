@@ -2,7 +2,7 @@
   "params":
   {
    "local_server": "True",
-   "local_uri": "mysql+mysqldb:://remote_user:your_password@127.0.0.1:3307/medical",
+   "local_uri": "mysql+mysqldb://remote_user:your_password@127.0.0.1:3307/medical",
     "proud_uri": "mysql://remote_user:your_password@127.0.0.1:3307/medical",
     "fb_url":"https://www.facebook.com",
     "tw_url":"https://www.facebook.com/////",
